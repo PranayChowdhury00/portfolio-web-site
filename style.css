@@ -1,4 +1,6 @@
-
+.hide{
+    display: none;
+}
 
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
@@ -166,3 +168,46 @@ input[type="text"],footer input[type="email"],footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+/*  */
+@media screen and (max-width:576px) {
+    .about , .about-items ,.resume-container , footer ,nav ,.banner{
+        
+        flex-direction: column;
+        padding: 0;
+    }
+    .section-description{
+        text-align: start;
+        width:470px;
+    }
+    .footer-column{
+        width: 470px;
+        padding: 0;
+    }
+}
+/*  */
+
+@media screen and (max-width:576px) {
+    .skills{
+       
+    flex-direction: column;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:576px) {
+     nav ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .banner img{
+       width: 100%;
+    }
+    header{
+        background-image: none;
+    }
+}
+/*  */
+
